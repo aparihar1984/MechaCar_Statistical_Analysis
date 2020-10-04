@@ -12,7 +12,7 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 Our overall p-value is 5.35e-11, which is below the assumed significance level of 0.05.  Therefore we can state that there is enough evidence to reject the null hypothesis that they are not related, and thus say that this linear model does not predict mpg of MechaCar prototypes effectively.
 
 Screenshots for p-value coefficients in summary:
-
+[GitHub Picture](https://github.com/aparihar1984/MechaCar_Statistical_Analysis/blob/main/Module_15_Deliverables/Screen%20Shots/p-values_Summary.png)
 
 ## Summary Statistics on Suspension Coils
 
@@ -21,6 +21,8 @@ When examining our total_summary DataFrame, we can see that the PSI variance is 
 When examining our lot_summary DataFrame, we can see that the PSI variance exceeds 100 PSI for lot 3 (~ 200 PSI), but does not exceed 100 PSI for lots 1 and 2 (~ 1 PSI and 10 PSI respectively).  Thus, lots 1 and 2 meet the design specifications while lot 3 does not.
 
 Screenshots for total_summary and lot_summary:
+[GitHub Picture](https://github.com/aparihar1984/MechaCar_Statistical_Analysis/blob/main/Module_15_Deliverables/Screen%20Shots/total_summary.png)
+[GitHub Picture](https://github.com/aparihar1984/MechaCar_Statistical_Analysis/blob/main/Module_15_Deliverables/Screen%20Shots/lot_summary.png)
 
 ## T-Tests on Suspension Coils
 
@@ -28,6 +30,7 @@ Based on our one sample t-test for the manufacturing lots in total, we have a p-
 Based on our one sample t-test for each of the manufacturing lots 1, 2, and 3, we have p-values of 0.9048, 0.3451, and 0.637 respectively.  All of the p-values are above the assumed significance level of 0.05.  Therefore we can state that there is not enough evidence to reject the null hypothesis (we fail to reject the null hypothesis) that there is no relationship between the samples and the given population (mean of every suspension coil/mu=1500).
 
 Screenshots of t-test results:
+[GitHub Picture](https://github.com/aparihar1984/MechaCar_Statistical_Analysis/blob/main/Module_15_Deliverables/Screen%20Shots/t-test_results.png)
 
 ## Study Design: MechaCar vs Competition
 
